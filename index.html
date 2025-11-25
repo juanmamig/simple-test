@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Página Básica</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Ejemplo de página HTML básica." />
+    <link rel="icon" href="data:,">
+    <style>
+        :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+        body { margin: 0; padding: 2rem; line-height: 1.5; }
+        header, main, footer { max-width: 60ch; margin-inline: auto; }
+        h1 { margin-top: 0; }
+        nav a { margin-right: 1rem; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hola Mundo</h1>
+        <nav aria-label="Principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#about">Acerca</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section id="about">
+            <h2>Acerca</h2>
+            <p>Esta es una página HTML básica de ejemplo.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Envía un mensaje a <a href="mailto:ejemplo@correo.test">ejemplo@correo.test</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 Ejemplo. Todos los derechos reservados.</small>
+    </footer>
+</body>
+</html>
